@@ -26,7 +26,7 @@ struct Grid
 		return cells[y * cols + x];
 	}
 
-	// check if coordinates inside the grid
+	// check if coordinates are inside the grid
 	bool inBounds(int x, int y)
 	{
 		return x >= 0 && x < cols && y >= 0 && y < rows;

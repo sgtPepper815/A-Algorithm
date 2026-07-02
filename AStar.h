@@ -82,7 +82,7 @@ struct AStar
 
     }
 
-
+    // build final path
     std::vector<Cell*> reconstructPath()
     {
         std::vector<Cell*> path;

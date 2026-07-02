@@ -203,7 +203,7 @@ int main(int argc, char* argv[])
             }
         }
 
-        // A*-Schritte ausführen (animiert, mehrere Schritte pro Frame)
+        // execute A* step(s)
         if (a_star.has_value() && a_star->isRunning()) {
             for (int i = 0; i < STEPS_PER_FRAME && a_star->isRunning(); ++i) {
                 a_star->step();
