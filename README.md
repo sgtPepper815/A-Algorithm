@@ -1,4 +1,4 @@
-# A-Algorithm
+# A*-Algorithm
 
 
 
